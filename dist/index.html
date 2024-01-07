@@ -1,0 +1,163 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><link href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/element-ui/2.14.0/theme-chalk/index.min.css" rel="stylesheet"><link href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/github-markdown-css/4.0.0/github-markdown.min.css" rel="stylesheet"><link href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.12.0/katex.min.css" rel="stylesheet"><link href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/muse-ui/3.0.2/muse-ui.min.css" rel="stylesheet"><title>Hcode OnlineJudge</title><script>// IE 10 and earlier
+    if (window.navigator.userAgent.indexOf('MSIE ') > 0 &&
+      window.confirm('Your browser is not supported, click \'OK\' to update')) {
+      window.location = 'http://outdatedbrowser.com'
+    }</script><style>@-webkit-keyframes enter {
+      0% {
+        opacity: 0;
+        top: -10px;
+      }
+
+      5% {
+        opacity: 1;
+        top: 0px;
+      }
+
+      50.9% {
+        opacity: 1;
+        top: 0px;
+      }
+
+      55.9% {
+        opacity: 0;
+        top: 10px;
+      }
+    }
+
+    @keyframes enter {
+      0% {
+        opacity: 0;
+        top: -10px;
+      }
+
+      5% {
+        opacity: 1;
+        top: 0px;
+      }
+
+      50.9% {
+        opacity: 1;
+        top: 0px;
+      }
+
+      55.9% {
+        opacity: 0;
+        top: 10px;
+      }
+    }
+
+    @-moz-keyframes enter {
+      0% {
+        opacity: 0;
+        top: -10px;
+      }
+
+      5% {
+        opacity: 1;
+        top: 0px;
+      }
+
+      50.9% {
+        opacity: 1;
+        top: 0px;
+      }
+
+      55.9% {
+        opacity: 0;
+        top: 10px;
+      }
+    }
+
+    body {
+      background: #f8f8f9;
+    }
+
+    #app-loader {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -27.5px;
+      margin-top: -27.5px;
+    }
+
+    #app-loader .square {
+      background: #2d8cf0;
+      width: 15px;
+      height: 15px;
+      float: left;
+      top: -10px;
+      margin-right: 5px;
+      margin-top: 5px;
+      position: relative;
+      opacity: 0;
+      -webkit-animation: enter 6s infinite;
+      animation: enter 6s infinite;
+    }
+
+    #app-loader .enter {
+      top: 0px;
+      opacity: 1;
+    }
+
+    #app-loader .square:nth-child(1) {
+      -webkit-animation-delay: 1.8s;
+      -moz-animation-delay: 1.8s;
+      animation-delay: 1.8s;
+    }
+
+    #app-loader .square:nth-child(2) {
+      -webkit-animation-delay: 2.1s;
+      -moz-animation-delay: 2.1s;
+      animation-delay: 2.1s;
+    }
+
+    #app-loader .square:nth-child(3) {
+      -webkit-animation-delay: 2.4s;
+      -moz-animation-delay: 2.4s;
+      animation-delay: 2.4s;
+      background: #ff9900;
+    }
+
+    #app-loader .square:nth-child(4) {
+      -webkit-animation-delay: 0.9s;
+      -moz-animation-delay: 0.9s;
+      animation-delay: 0.9s;
+    }
+
+    #app-loader .square:nth-child(5) {
+      -webkit-animation-delay: 1.2s;
+      -moz-animation-delay: 1.2s;
+      animation-delay: 1.2s;
+    }
+
+    #app-loader .square:nth-child(6) {
+      -webkit-animation-delay: 1.5s;
+      -moz-animation-delay: 1.5s;
+      animation-delay: 1.5s;
+    }
+
+    #app-loader .square:nth-child(8) {
+      -webkit-animation-delay: 0.3s;
+      -moz-animation-delay: 0.3s;
+      animation-delay: 0.3s;
+    }
+
+    #app-loader .square:nth-child(9) {
+      -webkit-animation-delay: 0.6s;
+      -moz-animation-delay: 0.6s;
+      animation-delay: 0.6s;
+    }
+
+    #app-loader .clear {
+      clear: both;
+    }
+
+    #app-loader .last {
+      margin-right: 0;
+    }
+
+    #app-loader .loader-content {
+      color: #3498db;
+      font-size: 16px;
+      font-weight: 600;
+    }</style><link href="/assets/css/chunk-07fef227.bc5c0306.css" rel="prefetch"><link href="/assets/css/chunk-0dc9ecbf.7c8a3a23.css" rel="prefetch"><link href="/assets/css/chunk-21732d96.1f6fb654.css" rel="prefetch"><link href="/assets/css/chunk-22ba7762.e0591048.css" rel="prefetch"><link href="/assets/css/chunk-2b52b4fe.ada2d265.css" rel="prefetch"><link href="/assets/css/chunk-2d45dc26.1e071925.css" rel="prefetch"><link href="/assets/css/chunk-38b07b5d.80fd45f0.css" rel="prefetch"><link href="/assets/css/chunk-3ef84ff5.7cf1d248.css" rel="prefetch"><link href="/assets/css/chunk-495bd884.0cb27aca.css" rel="prefetch"><link href="/assets/css/chunk-4b10e546.eac0a445.css" rel="prefetch"><link href="/assets/css/chunk-5cc63cfe.680c1d97.css" rel="prefetch"><link href="/assets/css/chunk-5ccaeea6.fa91b10e.css" rel="prefetch"><link href="/assets/css/chunk-6143454e.1b85082c.css" rel="prefetch"><link href="/assets/css/chunk-66e00e7b.a21b9c93.css" rel="prefetch"><link href="/assets/css/chunk-69c78dea.9f909ead.css" rel="prefetch"><link href="/assets/css/chunk-69dafeb6.3776f1a6.css" rel="prefetch"><link href="/assets/css/chunk-756de156.e8780b64.css" rel="prefetch"><link href="/assets/css/chunk-77cebcf7.69165c25.css" rel="prefetch"><link href="/assets/css/chunk-79937758.b3d43316.css" rel="prefetch"><link href="/assets/css/chunk-7b553d40.879dab52.css" rel="prefetch"><link href="/assets/css/chunk-9d802ec6.ec8c8358.css" rel="prefetch"><link href="/assets/css/chunk-ae9249ea.7e34f924.css" rel="prefetch"><link href="/assets/css/chunk-cc9cb1b0.103d9970.css" rel="prefetch"><link href="/assets/css/chunk-d40011b4.cb46c73a.css" rel="prefetch"><link href="/assets/css/chunk-d949e95a.4e86982e.css" rel="prefetch"><link href="/assets/css/chunk-ddd7c1e0.04e61a3e.css" rel="prefetch"><link href="/assets/js/chunk-07fef227.06fef078.js" rel="prefetch"><link href="/assets/js/chunk-0dc9ecbf.17133486.js" rel="prefetch"><link href="/assets/js/chunk-21732d96.775e3d6c.js" rel="prefetch"><link href="/assets/js/chunk-22ba7762.4e3cdcfa.js" rel="prefetch"><link href="/assets/js/chunk-2b52b4fe.49dc89b8.js" rel="prefetch"><link href="/assets/js/chunk-2d0afe0f.6c562f25.js" rel="prefetch"><link href="/assets/js/chunk-2d0d362a.155d89b6.js" rel="prefetch"><link href="/assets/js/chunk-2d45dc26.6974b65f.js" rel="prefetch"><link href="/assets/js/chunk-38b07b5d.c62253f0.js" rel="prefetch"><link href="/assets/js/chunk-3ef84ff5.f78ae221.js" rel="prefetch"><link href="/assets/js/chunk-495bd884.ac717c94.js" rel="prefetch"><link href="/assets/js/chunk-4b10e546.873bc876.js" rel="prefetch"><link href="/assets/js/chunk-5cc63cfe.cb075d9f.js" rel="prefetch"><link href="/assets/js/chunk-5ccaeea6.6284c30b.js" rel="prefetch"><link href="/assets/js/chunk-6143454e.a800b415.js" rel="prefetch"><link href="/assets/js/chunk-66e00e7b.5fd8ca54.js" rel="prefetch"><link href="/assets/js/chunk-69c78dea.4e90777a.js" rel="prefetch"><link href="/assets/js/chunk-69dafeb6.f7dfed77.js" rel="prefetch"><link href="/assets/js/chunk-74597c67.101a6f88.js" rel="prefetch"><link href="/assets/js/chunk-756de156.c99f8982.js" rel="prefetch"><link href="/assets/js/chunk-77cebcf7.16f51c69.js" rel="prefetch"><link href="/assets/js/chunk-79937758.05046c58.js" rel="prefetch"><link href="/assets/js/chunk-7b553d40.eb37ffc7.js" rel="prefetch"><link href="/assets/js/chunk-9d802ec6.f4e6d114.js" rel="prefetch"><link href="/assets/js/chunk-ae9249ea.ab4a3215.js" rel="prefetch"><link href="/assets/js/chunk-cc9cb1b0.8ca047ca.js" rel="prefetch"><link href="/assets/js/chunk-d40011b4.740013ba.js" rel="prefetch"><link href="/assets/js/chunk-d949e95a.0cc5640b.js" rel="prefetch"><link href="/assets/js/chunk-ddd7c1e0.0d382a40.js" rel="prefetch"><link href="/assets/css/app.afd18335.css" rel="preload" as="style"><link href="/assets/css/chunk-vendors.3523a65b.css" rel="preload" as="style"><link href="/assets/js/app.4c1c1f8d.js" rel="preload" as="script"><link href="/assets/js/chunk-vendors.8f5cc681.js" rel="preload" as="script"><link href="/assets/css/chunk-vendors.3523a65b.css" rel="stylesheet"><link href="/assets/css/app.afd18335.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but hoj-vue doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><div id="app-loader"><div class="square"></div><div class="square"></div><div class="square last"></div><div class="square clear"></div><div class="square"></div><div class="square last"></div><div class="square clear"></div><div class="square"></div><div class="square last"></div><div class="loader-content"><span>Loading...</span></div></div><script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/vue/2.6.11/vue.min.js"></script><script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/vue-router/3.2.0/vue-router.min.js"></script><script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/axios/0.26.0/axios.min.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/element-ui/2.15.3/index.min.js"></script><script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/highlight.js/10.3.2/highlight.min.js"></script><script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/moment.js/2.29.1/moment.min.js"></script><script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/moment.js/2.29.1/locale/zh-cn.min.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/moment.js/2.29.1/locale/en-gb.min.js"></script><script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/echarts/4.9.0-rc.1/echarts.min.js"></script><script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/vue-echarts/5.0.0-beta.0/vue-echarts.min.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vuex/3.5.1/vuex.min.js"></script><script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.12.0/katex.min.js"></script><script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.12.0/contrib/auto-render.min.js"></script><script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/muse-ui/3.0.2/muse-ui.min.js"></script><script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.5.1/jquery.min.js"></script><script src="/assets/js/chunk-vendors.8f5cc681.js"></script><script src="/assets/js/app.4c1c1f8d.js"></script></body></html>
